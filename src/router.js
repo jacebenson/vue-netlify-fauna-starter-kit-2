@@ -9,30 +9,30 @@ const routes = [
   {
     path: "/home",
     name: "home",
-    component: () => import("./pages/home.vue")
+    component: () => import("./pages/Home.vue")
   },
   {
     path: "/journals",
     name: "journals",
-    component: () => import("./pages/journals.vue"),
+    component: () => import("./pages/Journals.vue"),
     meta: { authRequired: true }
   },
   {
     path: "/journals/:id/posts",
     name: "posts",
-    component: () => import("./pages/posts.vue"),
+    component: () => import("./pages/Posts.vue"),
     meta: { authRequired: true }
   },
   {
     path: "/profile",
     name: "profile",
-    component: () => import("./pages/profile.vue"),
+    component: () => import("./pages/Profile.vue"),
     meta: { authRequired: true }
   },
   {
     path: "/recover",
     name: "recover",
-    component: () => import("./pages/recoverAccount.vue")
+    component: () => import("./pages/RecoverAccount.vue")
   }
 ];
 

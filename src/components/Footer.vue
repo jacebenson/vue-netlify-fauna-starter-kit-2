@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div id="links">Stuff Goes Here</div>
+    <div id="links">Tasks made easy with <a href="tskr.io">tskr.io</a></div>
   </footer>
 </template>
 

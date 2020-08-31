@@ -44,8 +44,8 @@ nav#nav-bar #nav-items {
   text-decoration: none;
   align-items: center;
   text-align: center;
-  justify-content: space-evenly;
-  margin: 30px 10px 0 10px;
+  justify-content: space-between;
+  margin: 0px 10px 0 10px;
 
   a {
     border-bottom: solid 3px rgba(255, 255, 255, 0);
