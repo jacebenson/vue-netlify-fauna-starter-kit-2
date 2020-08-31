@@ -14,13 +14,13 @@ const routes = [
   {
     path: "/journals",
     name: "journals",
-    component: () => import("./pages/Journals.vue"),
+    component: () => import("./pages/AllJournals.vue"),
     meta: { authRequired: true }
   },
   {
     path: "/journals/:id/posts",
     name: "posts",
-    component: () => import("./pages/Posts.vue"),
+    component: () => import("./pages/AllPosts.vue"),
     meta: { authRequired: true }
   },
   {
