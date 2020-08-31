@@ -25,7 +25,7 @@
     </div>
     <div id="journals-container">
       <JournalCard
-        v-for="(item, index) in allJournals"
+        v-for="(item, index) in Journals"
         :key="index"
         :journal="{ item, index }"
         @delete-journal="deleteJournal"
