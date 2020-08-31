@@ -1,6 +1,11 @@
 <template>
   <nav v-if="currentUser" id="nav-bar">
     <div id="nav-items">
+      <img
+        id="logo"
+        src="uploads/android-chrome-192x192.png"
+        alt="Tskr.io Logo"
+      />
       <router-link :to="{ name: 'home' }">🏠 Home</router-link>
 
       <router-link :to="{ name: 'journals' }">📔 Your Journals</router-link>
@@ -60,5 +65,8 @@ nav#nav-bar #nav-items {
 nav#nav-bar #nav-items > a,
 div {
   margin: 20px;
+}
+img#logo {
+  width: 64px;
 }
 </style>

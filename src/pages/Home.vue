@@ -1,26 +1,12 @@
 <template>
   <main class="home space">
-    <img
-      id="logo"
-      src="https://user-images.githubusercontent.com/18376481/78156268-78aed080-7436-11ea-9da7-57d83ec5ec8a.png"
-      alt="logos of Vue, Netlify and Fauna"
-    />
-    <h1 style="text-align:center">Vue - Netlify - Fauna</h1>
-    <h2>A serverless stack with authentication ready to go!</h2>
+    <h1 style="text-align:center">Tskr.io</h1>
+    <h2>Tasks made easy</h2>
 
     <div>
       <p>
-        This is a demo app to show how you can use cool technologies like Fauna
-        and Netlify to build a CRUD application completely serverless and host
-        for free! 😎
-      </p>
-
-      <p>
-        If you want to see how this is all glued together check out the
-        <a href="https://github.com/chiubaca/vue-netlify-fauna-starter-kit"
-          >source code</a
-        >
-        . Happy hacking!
+        A task system that is mean't to keep tasks secure, simple and easy to
+        customize
       </p>
     </div>
     <LoginSignup v-if="currentUser === null" />
@@ -31,22 +17,17 @@
         <router-link :to="{ name: 'journals' }">journals ➡️ </router-link>.
       </p>
     </div>
-    <GithubCorner
-      url="https://github.com/chiubaca/vue-netlify-fauna-starter-kit"
-    />
   </main>
 </template>
 
 <script>
 import { mapGetters } from "vuex";
 import LoginSignup from "../components/LoginSignup.vue";
-import GithubCorner from "../components/GithubCorner.vue";
 
 export default {
   name: "Home",
   components: {
-    LoginSignup,
-    GithubCorner
+    LoginSignup
   },
   props: {
     msg: String
@@ -73,7 +54,7 @@ export default {
   }
 }
 img#logo {
-  width: 100%;
+  //width: 100%;
   height: auto;
 }
 </style>

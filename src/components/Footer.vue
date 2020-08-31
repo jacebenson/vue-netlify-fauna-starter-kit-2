@@ -1,7 +1,6 @@
 <template>
   <footer>
-    made by<a href="https://twitter.com/chiubaca">chiubaca</a>
-    <div id="links"></div>
+    <div id="links">Stuff Goes Here</div>
   </footer>
 </template>
 

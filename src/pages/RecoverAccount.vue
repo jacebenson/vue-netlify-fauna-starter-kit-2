@@ -32,7 +32,7 @@
 import { mapActions } from "vuex";
 
 export default {
-  name: "RecoverAccount",
+  name: "recoverAccount",
   data() {
     return {
       crendentials: {

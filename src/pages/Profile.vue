@@ -61,7 +61,7 @@ import { mapGetters, mapActions } from "vuex";
 import Modal from "../components/Modal.vue";
 
 export default {
-  name: "Profile",
+  name: "profile",
   components: {
     Modal
   },

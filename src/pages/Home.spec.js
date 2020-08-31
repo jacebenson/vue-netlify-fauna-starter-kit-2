@@ -1,7 +1,7 @@
 import { shallowMount, createLocalVue } from "@vue/test-utils";
 import Vuex from "vuex";
 import VueRouter from "vue-router";
-import Home from "./Home.vue";
+import Home from "./home.vue";
 import auth from "../store/modules/auth";
 
 const localVue = createLocalVue();
